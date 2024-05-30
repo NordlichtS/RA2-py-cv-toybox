@@ -21,5 +21,8 @@ if something has "deploysinto=" or "undeploysinto=" it will not be separated, re
 
 4, Use cleanup_after_sort.py to remove already sorted sections from rules.ini. For the sections that are not sorted, you need to manually sort them or write your own list into the index file.
 
-In the example i provided, I used the rules registry index from Tiberian Sun Another World. The rulesmd.ini was quickly sorted into 27 different files. Dont forget the final step: [#include]
+In the example i provided, I used the rules registry index from Tiberian Sun Another World. 
+The rulesmd.ini was quickly sorted into 27 different files. 
+Dont forget the final step, you need to do it by hand : [#include]  function of Ares 2.0+
+
 ![alt text](https://github.com/NordlichtS/RA2-ini-organizer/blob/main/EXAMPLES/ARES%20RULES%20INCLUDE.png)
