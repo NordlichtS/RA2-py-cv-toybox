@@ -13,7 +13,7 @@ You might want to remove comments and percentage symbols too, i don't know if it
 
 I suggest replacing all "%" symbol with a text placeholder, and change them all back after everything is done. (use win10 notepad or VScode's replacement function, it's not in the script)
 
-2, Use ares_sort_rules.py for making the new categorized files. This is the most important step!
+2, Use ares_sort_rules.py for making the new categorized files. This is the most important step! Watch the terminal in case of any error.
 
 3, Use negative_techlevel_sort.py to process the newly created sort_BuildingTypes.ini and sort_VehicleTypes.ini, this will separate stuff you cannot build (neutral objects) 
 
@@ -22,3 +22,4 @@ if something has "deploysinto=" or "undeploysinto=" it will not be separated, re
 4, Use cleanup_after_sort.py to remove already sorted sections from rules.ini. For the sections that are not sorted, you need to manually sort them or write your own list into the index file.
 
 In the example i provided, I used the rules registry index from Tiberian Sun Another World. The rulesmd.ini was quickly sorted into 27 different files. Dont forget the final step: [#include]
+![alt text](https://github.com/NordlichtS/RA2-ini-organizer/blob/main/EXAMPLES/ARES%20RULES%20INCLUDE.png)
