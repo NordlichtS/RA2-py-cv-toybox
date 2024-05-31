@@ -27,3 +27,6 @@ The rulesmd.ini was quickly sorted into 27 different files.
 Dont forget the final step, you need to do it by hand : [#include]  function of Ares 2.0+
 
 ![alt text](https://github.com/NordlichtS/RA2-ini-organizer/blob/main/EXAMPLES/ARES%20RULES%20INCLUDE.png)
+
+the "old copy ini files .py" is my early version which used brute force text management, and is not limited by the bug of config parser. thus it wont give you duplication error or problem with percentage symbols. however it might be less stable
+
