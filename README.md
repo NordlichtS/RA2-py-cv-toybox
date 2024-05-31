@@ -1,5 +1,6 @@
 # RA2-ini-organizer
 python script to sort rules.ini into multiple files by object types, so you can [#include] with Ares and make mod editing more organized.
+（中文教程懒得写了，需要的话可以直接问我）
 
 how to use:
 
