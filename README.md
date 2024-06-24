@@ -1,4 +1,8 @@
-# RA2-ini-organizer
+# RA2 python + opencv 小工具盒
+
+目前包含： INI 自动分类整理器， 适配戴子玲渲染脚本的 SHP GIF 一键生成, 以及一些实例
+
+# ini auto sort:
 python script to sort rules.ini into multiple files by object types, so you can [#include] with Ares and make mod editing more organized.
 
 （中文教程懒得写了，需要的话可以直接问我）
@@ -30,4 +34,7 @@ Dont forget the final step, you need to do it by hand : [#include]  function of 
 ![alt text](https://github.com/NordlichtS/RA2-ini-organizer/blob/main/EXAMPLES/ARES%20RULES%20INCLUDE.png)
 
 the "old copy ini files .py" is my early version which used brute force text management, and is not limited by the bug of config parser. thus it wont give you duplication error or problem with percentage symbols. however it might be less stable
+
+# 一键帧序列带阴影转GIF （需要 opencv）
+没什么可说的，能调的参数都注释了，直接塞进戴子玲脚本的输出文件夹然后双击运行，等几秒找 output.gif
 
