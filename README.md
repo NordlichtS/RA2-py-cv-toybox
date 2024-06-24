@@ -2,6 +2,10 @@
 
 目前包含： INI 自动分类整理器， 适配戴子玲渲染脚本的 SHP GIF 一键生成, 以及一些实例
 
+# 一键帧序列带阴影转GIF （需要 opencv）
+没什么可说的，能调的参数都注释了，直接塞进戴子玲脚本的输出文件夹然后双击运行，等几秒找 output.gif
+![alt text](https://github.com/NordlichtS/RA2-py-cv-toybox/blob/main/EXAMPLES/GDI%20alchemy%20table.gif)
+
 # ini auto sort:
 python script to sort rules.ini into multiple files by object types, so you can [#include] with Ares and make mod editing more organized.
 
@@ -35,7 +39,5 @@ Dont forget the final step, you need to do it by hand : [#include]  function of 
 
 the "old copy ini files .py" is my early version which used brute force text management, and is not limited by the bug of config parser. thus it wont give you duplication error or problem with percentage symbols. however it might be less stable
 
-# 一键帧序列带阴影转GIF （需要 opencv）
-没什么可说的，能调的参数都注释了，直接塞进戴子玲脚本的输出文件夹然后双击运行，等几秒找 output.gif
-![alt text](https://github.com/NordlichtS/RA2-py-cv-toybox/blob/main/EXAMPLES/GDI%20alchemy%20table.gif)
+
 
