@@ -37,4 +37,5 @@ the "old copy ini files .py" is my early version which used brute force text man
 
 # 一键帧序列带阴影转GIF （需要 opencv）
 没什么可说的，能调的参数都注释了，直接塞进戴子玲脚本的输出文件夹然后双击运行，等几秒找 output.gif
+![alt text](https://github.com/NordlichtS/RA2-py-cv-toybox/blob/main/EXAMPLES/GDI%20alchemy%20table.gif)
 
